@@ -1,0 +1,101 @@
+.NavbarSuper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid rgb(123, 255, 0); */
+}
+
+.LogoLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.LogoLeft img {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 300%;
+}
+
+.SpaceRight {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.SpaceRight img {
+    display: flex;
+    width: 50%;
+    margin-top: -27px;
+    animation: Meatfloat 3s ease-in-out infinite;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(0, 38, 255); */
+}
+
+.BarMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.BarMenu img {
+    display: flex;
+    width: 100%;
+    margin-top: -0.5%;
+}
+
+.BarMenuIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 100%;
+    margin-top: -5.52%;
+    /* border: 2px solid rgb(0, 255, 76); */
+
+}
+
+.BarMenuIcons img {
+    display: flex;
+    width: 100%;
+    animation: Meatfloat 2s ease-in-out infinite;
+}
+
+
+@keyframes Meatfloat {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-2%) rotate(3deg);
+    }
+    100% {
+      transform: translateY(0%) rotate(0deg);
+    }
+  }
