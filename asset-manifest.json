@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b957cf76.css",
+    "main.js": "/static/js/main.599460fc.js",
+    "static/media/meat2.png": "/static/media/meat2.2aae5bdaf7760f11213b.png",
+    "static/media/stablebland2.png": "/static/media/stablebland2.8b8b9d0b08b6c6a06fe0.png",
+    "static/media/RoundsExtraBold.ttf": "/static/media/RoundsExtraBold.4c2f51c06638b1d4e861.ttf",
+    "static/media/RoundsRegular.ttf": "/static/media/RoundsRegular.0989ed650c3ba4623576.ttf",
+    "static/media/back.png": "/static/media/back.4303bd5a4f3837688efb.png",
+    "static/media/barmenu2.png": "/static/media/barmenu2.f165f64694cc6e4d7d71.png",
+    "static/media/logonotext.png": "/static/media/logonotext.83b0ea3093b7d49a5768.png",
+    "index.html": "/index.html",
+    "main.b957cf76.css.map": "/static/css/main.b957cf76.css.map",
+    "main.599460fc.js.map": "/static/js/main.599460fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b957cf76.css",
+    "static/js/main.599460fc.js"
+  ]
+}
