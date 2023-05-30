@@ -1,0 +1,15 @@
+.StakeSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f5ad80;
+}
+
+.StakeSection img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: -80px;
+}

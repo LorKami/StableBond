@@ -1,0 +1,128 @@
+.FooterSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #401E10;
+    /* border: 2px solid greenyellow; */
+}
+
+.InfoSocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 16%;
+    height: 100%;
+    /* border: 2px solid rgb(0, 68, 255); */
+}
+
+.InfoSocial a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.Copy {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.Copy p {
+    color: white;
+}
+
+.buttontwitter {
+    border-radius: 138px;
+    background-color: #55ACEE;
+    border: 5px solid #55ACEE;
+    transition: 0.5s ease-in-out;
+    color: #ffffff;
+}
+
+.buttontwitter:hover {
+    /* transform: rotate(360deg) scale(1.1); */
+    background-color: #fafcfd;
+    border: 5px solid #55ACEE;
+    color: #55ACEE;
+}
+
+.buttontelegram {
+    border-radius: 138px;
+    background-color: #179CDE;
+    border: 5px solid #179CDE;
+    transition: 0.5s ease-in-out;
+    color: #ffffff;
+}
+
+.buttontelegram:hover {
+    /* transform: rotate(360deg) scale(1.1); */
+    background-color: #fafcfd;
+    border: 5px solid #179CDE;
+    color: #179CDE;
+}
+
+.buttonmedium {
+    border-radius: 138px;
+    background-color: #6b6b6b;
+    border: 5px solid #6b6b6b;
+    transition: 0.5s ease-in-out;
+    color: #ffffff;
+}
+
+.buttonmedium:hover {
+    /* transform: rotate(360deg); */
+    background-color: #fafcfd;
+    border: 5px solid #6b6b6b;
+    color: #6b6b6b;
+}
+
+.buttonpanda {
+    border-radius: 138px;
+    background-color: #c93900;
+    border: 5px solid #c93900;
+    transition: 0.5s ease-in-out;
+    color: #ffffff;
+}
+
+.buttonpanda:hover {
+    /* transform: rotate(360deg); */
+    background-color: #ebebeb;
+    border: 5px solid #c93900;
+    color: #c93900;
+}
+
+
+.buttonmedium:hover,
+.buttontelegram:hover,
+.buttontwitter:hover,
+.buttonpanda:hover {
+    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 425px) {
+    .FooterSec {
+        padding-top: 50px;
+    }
+    .InfoSocial {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .InfoSocial {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .InfoSocial {
+        width: 80%;
+    }
+}

@@ -1,0 +1,82 @@
+.RoadMapSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #401E10;
+    /* border: 2px solid blue; */
+}
+
+.RoadmapInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+    /* border: 2px solid red; */
+}
+
+.RoadmapInfo h2 {
+    color: white;
+    font-family: 'RoundsB', sans-serif;
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.RoadmapBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 65%;
+    /* border: 2px solid rgb(208, 255, 0); */
+}
+
+.RoadmapToke {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url(../../images/back.png);
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+.RoadmapToke h2 {
+    color: white;
+    font-family: 'RoundsB', sans-serif;
+    font-size: 1.5rem;
+    margin: 0px;
+}
+
+.RoadmapToke p {
+    color: white;
+    font-family: 'RoundsR';
+    font-size: 1rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .RoadmapBox {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .RoadMapSec {
+        padding-top: 50px;
+        height: 100%;
+    }
+    .RoadmapBox {
+        width: 90%;
+    }
+    .RoadmapInfo {
+        margin-bottom: 20px;
+    }
+    .RoadmapInfo h2 {
+        font-size: 2.5rem;
+    }
+    .RoadmapToke h2 {
+        font-size: 2rem;
+    }
+  }
